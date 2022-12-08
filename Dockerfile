@@ -1,4 +1,4 @@
-FROM docker.io/fedora
+FROM registry.access.redhat.com/ubi
 
 LABEL maintainer Rupesh Patel (rupesh@gmail.com) 
 
