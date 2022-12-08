@@ -1,7 +1,7 @@
-FROM alpine
+FROM fedora:latest
 
-LABEL maintainer Bill Wang <ozbillwang@gmail.com>
+LABEL maintainer Rupesh Patel (rupesh@gmail.com) 
 
-RUN apk --update add openssl
+RUN yum install openssl util-linux-core -y 
 
 ENTRYPOINT ["openssl"]
