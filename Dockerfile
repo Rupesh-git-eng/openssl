@@ -1,4 +1,4 @@
-FROM fedora:latest
+FROM docker.io/fedora
 
 LABEL maintainer Rupesh Patel (rupesh@gmail.com) 
 
